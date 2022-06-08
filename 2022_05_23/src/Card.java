@@ -8,15 +8,12 @@ class Card {
 
     public int solution(int[][] board, int r, int c) {
         int answer = 0;
+        
+        
 
         return answer;
     }
 
-    private void find() {
-    	
-    }
-
- 
     
 	@Test
 	void test() {
