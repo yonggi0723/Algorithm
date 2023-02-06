@@ -15,15 +15,6 @@ class password {
 	
     public String solution(String s, String skip, int index) {
         String answer = "";
-        
-        char[] skip_arr = skip.toCharArray();
-        
-        Arrays.sort(skip_arr);
-        
-        for (char ch : s.toCharArray()) {
-        	
-        }
-        
         return answer;
     }
     
