@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * 프로그래머스 lv 1 둘만의 암호
+ * 프로그래머스 2/6 (월)
+ * 둘만의 암호 Lv 1
  * @author kim-yong-gi
  *
  */
@@ -29,7 +30,6 @@ class password {
         
         return answer.toString();
     }
-    
     
 	@Test
 	void test() {
