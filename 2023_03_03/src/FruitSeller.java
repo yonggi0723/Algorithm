@@ -4,6 +4,11 @@ import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
+/**
+ * 프로그래머스 lv1 과일장수 
+ * @author kim-yong-gi
+ *
+ */
 class FruitSeller {
 
     public int solution(int k, int m, int[] score) {

@@ -14,7 +14,6 @@ class Keyboard {
         int[] answer = new int[targets.length];
         
         for (int i=0; i< targets.length; i++) {
-        	
         	for (char ch : targets[i].toCharArray()) {
         		int num = getIndex(keymap, ch);
 
