@@ -1,10 +1,6 @@
 //import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.PriorityQueue;
-
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +18,8 @@ class FruitSeller {
         
         return answer;
     }
-    
+   
+
 	@Test
 	void test() {
 		Assert.assertEquals(8, solution(3, 4, new int[] {1, 2, 3, 1, 2, 3, 1}));
