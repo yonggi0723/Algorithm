@@ -11,7 +11,7 @@ class t_0721 {
         int[][] answer = {};
         List<int[]> list = new ArrayList<>(); 
         
-        move(1 , 2, 3, n, list);
+        move(1, 2, 3, n, list);
         
         answer = new int[list.size()][2];
         
@@ -24,12 +24,10 @@ class t_0721 {
     private void move(int start , int mid, int dest, int num, List<int[]> list) {
     	if (num == 1) {
     		list.add(new int[] {start,dest});
-    		System.out.println(String.format("(%d,%d)", start, dest));
     		return;
     	}
     	
     	move(start, dest, mid, num-1,list);
-		System.out.println(String.format("(%d,%d)", start, dest));
 		list.add(new int[] {start,dest});
 		move(mid, start, dest, num-1,list);
     }
