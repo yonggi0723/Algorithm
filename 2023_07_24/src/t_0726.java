@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 
-class t_07_26 {
+class t_0726 {
 
     public int solution(String[] board) {
         int answer = 1;

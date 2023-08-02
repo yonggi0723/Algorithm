@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 
-class t_07_24 {
+class t_0724 {
 	
 
     public String[] solution(String[][] plans) {

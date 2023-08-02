@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 
-class t_07_28 {
+class t_0728 {
 
     public int solution(int n, int k, int[] enemy) {
         int answer = 0;

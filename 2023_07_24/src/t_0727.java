@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 
-class t_07_27 {
+class t_0727 {
 
     public long solution(int[] weights) {
         long answer = 0;

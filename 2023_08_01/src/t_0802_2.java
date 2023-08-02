@@ -2,7 +2,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class t_07_31 {
+class t_0802_2 {
 
 	@Test
 	void test() {

@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 
-class t_07_25 {
+class t_0725 {
 
     public int solution(String[] board) {
         int answer = -1;
